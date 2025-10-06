@@ -3,9 +3,13 @@
 ## Target Selection 
 
 As our proof-of-concept is to optimize bridge recombinase activity for AATD treatment, we identified three candidate target sequences (target 1-3) within the SERPINA1 locus. The targets were selected to 
+
 (i) have high similarity to the IS621 wild-type target sequence
+
 (ii) minimal similarity to any sequence in the E. coli genome to reduce off targets
+
 (iii) be located between exon 1 and 2 as nearly all disease causing mutations occur downstream of exon 1. 
+
 To assess the baseline recombination efficiency between the wild-type donor and the selected target sequences, we co-expressed two plasmids in the E. coli Marionette-Clo strain: one encoding the IS621 recombinase and another, the ”screening plasmid”, carrying the respective bRNA under the control of the PTet promoter along with two fluorescent reporter genes oriented in opposite directions (Figure 3A). 
 The screening plasmid expresses mGreenLantern under the control of a constitutively active promoter; after inversion the two fluorescent reporter gene cassettes are flipped and mScarlet3 is placed downstream the promoter and expressed. The recombination efficiency for each target site is measured by flow cytometry and calculated as the percentage of mScarlet3-positive cells. Inversion is induced by addition of aTc which triggers bRNA A expression. 
 After 15 h of induction targets 1-3 showed 6 % to 16 % of mScarlet3-
