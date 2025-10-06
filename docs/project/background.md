@@ -22,6 +22,8 @@ Recent work by Beam Therapeutics demonstrated that in vivo delivery of a genetic
 
 In this context, bridge recombinase–mediated gene replacement provides a universal therapeutic strategy. By inserting a healthy SERPINA1 cDNA copy at the endogenous locus, it could restore gene function regardless of the underlying mutation, establishing A1ATD as a powerful proof-of-concept for next-generation genetic medicines.
 
+## Brige Recombinases as a promising tool for gene replacement therapies
+
 ## Deep Mutational Scanning to explore the sequence space of functional bridge recombinases
 
 ## E.Coli orthogonal replicon (EcoRep)
