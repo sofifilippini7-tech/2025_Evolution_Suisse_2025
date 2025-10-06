@@ -28,7 +28,7 @@ Alpha-1 antitrypsin deficiency (A1ATD) is an autosomal co-dominant disorder caus
 Clinically, A1ATD is often underdiagnosed due to overlapping symptoms with other respiratory and hepatic disorders such as asthma, chronic obstructive pulmonary disease (COPD), or cryptogenic liver disease. The disease manifests as lung damage caused by insufficient α1-antitrypsin activity and as liver injury due to intracellular accumulation of misfolded protein.
 
 <figure markdown>
-![A1ATD](https://github.com/idec-teams/2025_Evolution_Suisse_2025/edit/main/docs/img/A1ATD.jpg)
+![A1ATD](https://github.com/idec-teams/2025_Evolution_Suisse_2025/docs/img/A1ATD.jpg)
 <figcaption> Figure 3: A1ATD
 </figcaption>
 </figure>
