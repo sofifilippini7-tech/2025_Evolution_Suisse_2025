@@ -27,7 +27,7 @@ Alpha-1 antitrypsin deficiency (A1ATD) is an autosomal co-dominant disorder caus
 
 Clinically, A1ATD is often underdiagnosed due to overlapping symptoms with other respiratory and hepatic disorders such as asthma, chronic obstructive pulmonary disease (COPD), or cryptogenic liver disease. The disease manifests as lung damage caused by insufficient α1-antitrypsin activity and as liver injury due to intracellular accumulation of misfolded protein.
 
-Beam Therapeutics has demonstrated that in vivo delivery of a genetic medicine using lipid nanoparticles (LNPs) can restore α1-antitrypsin expression in humans to therapeutic levels sufficient to rescue disease phenotypes. This proof that enough hepatocytes can be functionally corrected through LNP delivery establishes A1ATD as a perfect model disease for validating new genome-editing platforms.
+Beam Therapeutics has demonstrated that in vivo delivery of a genetic medicine using lipid nanoparticles (LNPs) can restore α1-antitrypsin expression in humans to therapeutic levels sufficient to rescue disease phenotypes of a specific allelic variant. This proof that enough hepatocytes can be functionally corrected through LNP delivery establishes A1ATD as a perfect model disease for validating new genome-editing platforms.
 
 In this context, bridge recombinase–mediated gene replacement offers a universal therapeutic strategy. By inserting a healthy SERPINA1 cDNA copy at the endogenous locus, it could restore gene function regardless of the underlying mutation, positioning A1ATD as an ideal proof of concept for next-generation genetic medicines.
 
