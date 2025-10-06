@@ -18,3 +18,7 @@ cells 2 hours after induction across all conditions. Lastly, flipping events wer
 sequencing. Target 1 showed the highest activity and was selected as the primary target sequence from this
 point forward.
 
+### Insert figure 
+
+
+## Validation of the selection logic
