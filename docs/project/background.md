@@ -8,8 +8,7 @@ Conventional treatments such as enzyme replacement, protein supplementation, or 
 
 Gene editing therefore represents both a scientific and translational frontier. The ability to correct disease-causing mutations at their source promises durable cures, but achieving broad clinical applicability requires technologies that go beyond single-variant repair. Approaches capable of large-scale and allele-independent gene correction could overcome the fundamental limitations of current genome editors and redefine the therapeutic landscape for rare genetic diseases.
 
-## Poor Economics of Genetic Medicines and the Importance of Poly-allelic Variants
-
+## Poor Economics of Genetic Medicines 
 The development of genetic medicines faces not only scientific but also economic challenges. Current editing platforms typically target a single allelic variant, meaning each therapy can address only a small subset of affected individuals. This limited scope restricts the market size for each therapeutic candidate and makes it difficult to justify the high costs of research, manufacturing, and clinical development. To make gene therapies accessible to patients with rare disorders, new modalities are required that can treat multiple allelic variants within the same gene or disease context.
 
 Technologies that enable allele-independent gene correction could transform the economics of genetic medicine. A single therapeutic construct capable of restoring gene function across multiple mutations would drastically expand the patient base per indication. This would make development economically viable while simultaneously increasing patient access to curative treatments.
@@ -34,6 +33,6 @@ In this context, bridge recombinase–mediated gene replacement offers a univers
 
 ## Our IDEC 2025 Project: Evolving Bridge Recombinases
 
-In this project our team set out to develpo a dirceted evolution strategy for bridge recombinases with improved catalytic activity and specificity. Building on the discovery of IS621 and ISCro4, we established an experimental and computational platform that combines deep mutational learning (DML) with two complementary directed evolution systems: the E. coli orthogonal replication system (EcORep) and phage-assisted continuous evolution (PACE). 
+In this project our team set out to develop a dirceted evolution strategy for bridge recombinases with improved catalytic activity and specificity. Building on the discovery of IS621 and ISCro4, we established an experimental and computational platform that combines deep mutational learning (DML) with two complementary directed evolution systems: the E. coli orthogonal replication system (EcORep) and phage-assisted continuous evolution (PACE). 
 
 Our goal is to explore the fitness landscape of bridge recombinases and evolve variants with enhanced efficiency for large-fragment gene insertion. As a proof of principle, we focus on Alpha-1 Antitrypsin Deficiency, aiming to enable bridge recombinase–mediated replacement of the defective SERPINA1 gene with a healthy copy. 
