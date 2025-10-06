@@ -11,9 +11,16 @@ theme:
 
   features:
     - navigation.sections
+    - navigation.instant
+    - navigation.tabs
+
+# plugins:
+#   - glightbox
 
 markdown_extensions:
   - footnotes
+  - md_in_html
+  - tables
 
   # For MathJax
   - pymdownx.arithmatex:
@@ -32,6 +39,9 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
 
+extra_css:
+  - stylesheets/extra.css
+
 edit_uri: blob/main/docs/
 
 repo_url: https://github.com/idec-teams/2025_Evolution_Suisse_2025
@@ -43,8 +53,12 @@ nav:
   - Team: team.md
   - Project:
       - Background: project/background.md
-      - Results: project/results.md
+      - Plasmid-based selection system for evolving bridge recombinases: project/plasmid_selection.md
+      - Phage-assisted evolution of bridge recombinases: project/PACE.md
+      - Deep Mutational Learning of bridge recombinases: project/DML.md
   - Documentation:
       - Protocols: documentation/protocols.md
       - Lab notebook: documentation/notebook.md
-  - Some useful features: useful_features.md
+#      - Download Lab Notebook: files/lab_notebook_iDEC.pdf
+#      - Download Report: files/report.pdf
+#      - Download Supplimentary Data: files/supplement.pdf
