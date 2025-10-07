@@ -30,6 +30,12 @@ Because their targeting is dictated by RNA–DNA pairing, bridge recombinases ar
 
 So far, two bridge recombinases — IS621 and ISCro4 — have been characterized. They share about 88% sequence identity, suggesting that many other natural variants likely exist, some potentially even more efficient. Both of these enzymes have shown that RNA-guided recombination works reliably: IS621 functions well in bacteria, and ISCro4 in mammalian cells. Together, they define a new and powerful class of RNA-programmable genome editors that could overcome many limitations of existing technologies.
 
+<figure markdown>
+![A1ATD](https://idec-teams.github.io/2025_Evolution_Suisse_2025/img/ISCro4.png)
+<figcaption> Figure 3: ISCro4 Bridge Recombinase
+</figcaption>
+</figure>
+
 ## Alpha-1 Antitrypsin Deficiency as a Proof of Concept
 
 Alpha-1 Antitrypsin Deficiency (A1ATD) is a genetic disorder caused by mutations in the SERPINA1 gene. These mutations lead to low levels or misfolding of the α1-antitrypsin protein, a key molecule that protects the lungs and liver from damage. More than 150 disease-causing variants of SERPINA1 have been identified, including the common S (Glu264Val) and Z (Glu342Lys) variants, along with many rare mutations. Because so many different mutations can cause the same disease, A1ATD is a perfect model for testing broad, multi-allelic gene correction strategies.
