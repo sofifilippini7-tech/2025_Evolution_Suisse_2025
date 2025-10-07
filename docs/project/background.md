@@ -58,6 +58,6 @@ In our 2025 IDEC project, we aim to push bridge recombinases beyond their natura
 	•	E. coli Orthogonal Replication (EcORep) 
 	•	Phage-Assisted Continuous Evolution (PACE)
 
-Our goal is to map and understand the fitness landscape of bridge recombinases — essentially, how different mutations affect their activity — and evolve versions that are better at inserting large DNA fragments precisely and efficiently.
+Our goal is to map and understand the fitness landscape of bridge recombinases — essentially, how different mutations affect their activity, and evolve versions that are better at inserting large DNA fragments precisely and efficiently.
 
 As a proof of principle, we focus on Alpha-1 Antitrypsin Deficiency (A1ATD). If we can use an evolved bridge recombinase to replace the faulty SERPINA1 gene with a healthy one, it would demonstrate a powerful new way to correct genetic diseases at their root — and potentially make large-scale, mutation-independent cures a reality.
