@@ -1,6 +1,16 @@
 # Deep Mutational Learning of the bridge recombinases fitness landscape
-## High throughput efficiency data for bridge recombinases
-DE offers a powerful strategy to increase the fitness of proteins \cite{selles_vidal_primer_2023}. While most approaches are restricted to finding optima within local regions of the fitness landscape, machine learning offers an opportunity to broadly explore the fitness landscape and capture epistatic effects \cite{li_evaluation_2025}. Combining ML-based exploration to sample functional sequence space with highly efficient DE methods to refine and optimize variants toward local optima represents a powerful and complementary approach for protein engineering.
+## Motivation 
+Bridge recombinases such as IS621 and ISCro4 show remarkable sequence and functional similarity, sharing around 88 % identity in their amino acid sequence. This high similarity suggests that other natural or engineered variants could also exhibit strong recombination activity, possibly even outperforming the known enzymes. To explore this broader functional space, we developed a Deep Mutational Learning (DML) framework that combines experimental screening with machine learning–based analysis.  
+
+The goal of this approach is to map and understand how changes in the recombinase sequence influence its activity. Traditional directed evolution methods often find local improvements but can miss other promising regions in the fitness landscape. By integrating large-scale sequencing data with machine-learning models, we aim to capture complex interactions between multiple mutations and identify new functional variants more efficiently. These variants will serve as a starting point for the described continous DE methods.
+
+## Our Approach  
+
+Previous studies had shown that certain regions of the ISCro4 recombinase, particularly the C-terminal part of the TnP domain, can tolerate many mutations while maintaining activity. Building on this, we designed a broad, unbiased mutational library that explores combinations of amino acid substitutions across the TnP domain instead of focusing only on single mutations.  
+
+Each variant in the library is tested in a functional inversion assay that directly links its sequence (genotype) to its recombination performance (phenotype). This setup allows us to generate a large, labelled dataset suitable for training machine learning models. With these models we aim to learn the underlying structure of the recombinase fitness landscape and predict new variants with improved function.  
+
+---
 
 <figure markdown>
 ![DML Overview](../img/DML_Overview.png)
@@ -15,13 +25,19 @@ DE offers a powerful strategy to increase the fitness of proteins \cite{selles_v
 </figcaption>
 </figure>
 
-## library design
+## Library Design and Construction  
+
+To construct the library, the mutagenized region of ISCro4 was divided into six fragments covering amino acids 226 to 326. For each fragment, three oligonucleotide pools were synthesized: one containing only wild-type sequences, one containing all possible single-point mutations, and one containing all possible double-point mutations. These pools were then mixed in a ratio of 60 % wild type, 30 % single mutants, and 10 % double mutants. This combination ensures a realistic diversity while maintaining enough functional variants for meaningful data analysis.  
 
 <figure markdown>
 ![DML Library Assembly](../img/DML_LibraryAssembly.png)
 <figcaption> Figure 3: ISCro4 library design and assembly.
 </figcaption>
 </figure>
+
+All fragments were combined using Golden Gate assembly into a plasmid called **pES071.2**, which contains the ISCro4 variant library, its bridge RNA, the target sequence, and the wild-type IS621 donor sequence. This design ensures that successful recombination events are recorded directly on the plasmid sequence and can later be read out by next-generation sequencing (NGS).  
+
+To verify successful library assembly, we performed long-read Oxford Nanopore sequencing. The analysis showed a clear increase in mismatch frequency within the mutagenized regions, confirming that the intended mutations were successfully introduced while non-targeted regions remained largely unchanged.  
 
 <figure markdown>
 ![DML Mismatches per Position](../img/DML_MismatchPerPosition.png)
