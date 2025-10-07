@@ -6,7 +6,7 @@
 
 Reference: [squidfunk.github.io/mkdocs-material/reference/data-tables/](https://squidfunk.github.io/mkdocs-material/reference/footnotes/)
 
-All footnotes will appear at the end of the page. For example:
+All footnotes will appear at the end of the page. For example: hello
 
 The International Directed Evolution Competition (iDEC)[^1] is an international competition on directed evolution[^2].
 
@@ -18,3 +18,6 @@ The International Directed Evolution Competition (iDEC)[^1] is an international 
 ## Add images:
 
 ![dummy image](img/dummy.png){ width=800px }
+
+
+hello 
