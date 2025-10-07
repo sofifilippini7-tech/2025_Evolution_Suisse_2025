@@ -1,6 +1,7 @@
 # Phlasmid-based selection system for evolving bridge recombinases
 ## Evolutionary strategy and plasmid design
-We designed an evolution logic that allows for the selection of improved bridge recombinases in *E. coli*.
+We designed an evolution logic that allows for the selection of improved bridge recombinases in *E. coli*. 
+![Color_coded_Whole_Cell_View_3](https://github.com/user-attachments/assets/4b06a5a7-0665-4d57-95cd-71e48d96d1e4)
 
 ## Markdown footnotes for citations
 
