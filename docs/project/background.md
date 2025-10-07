@@ -18,17 +18,17 @@ To make genetic therapies more affordable and accessible, new approaches are nee
 
 ## Bridge Recombinases: A New Class of Programmable Genome Editors
 
-Bridge recombinases are a newly discovered family of genome-editing enzymes that work in a fundamentally different way from CRISPR.
+Bridge recombinases are a newly discovered family of genome-editing enzymes that share some important similarities with CRISPR systems but also introduce key new capabilities.
 
-While CRISPR/Cas9 acts like molecular scissors — cutting DNA at a specific site guided by a guide RNA — bridge recombinases act more like molecular glue. They use a bridge RNA (bRNA) to bring together two DNA molecules — a target in the genome and a donor carrying a new piece of DNA — and then recombine them precisely, without making double-stranded breaks.
+Like CRISPR/Cas9, bridge recombinases use an RNA molecule to guide them to a specific DNA sequence. In CRISPR, this is the guide RNA (gRNA), which directs Cas9 to make a precise cut in the DNA. In bridge recombinases, the guiding element is a bridge RNA (bRNA) — but instead of simply cutting, it helps connect two pieces of DNA. 
 
-These enzymes come from the IS110 family of mobile genetic elements. Each bridge recombinase combines a DEDD-family recombinase enzyme with its own structured bRNA. The bridge RNA has two loops: one binds to the genomic target site, and the other binds to the donor DNA. This dual binding physically aligns both DNA molecules so the recombinase can join them seamlessly.
+Each bridge recombinase combines a DEDD-family recombinase enzyme with its structured bridge RNA. The bRNA contains two short loops that base-pair separately with (1) a genomic target site and (2) a donor DNA carrying the new genetic information. This dual binding brings both DNA molecules into alignment so the recombinase can join them together at specific sites.
 
-This mechanism enables three core operations: insertion, deletion, and inversion of DNA fragments — all without relying on the cell’s natural repair systems. That’s a major difference from CRISPR, which depends on the cell’s DNA repair pathways to complete the edit after making a cut.
+Through this mechanism, bridge recombinases can perform three fundamental operations: insertion, deletion, and inversion of DNA fragments, all without making double-stranded breaks or depending on the cell’s natural repair machinery. This sets them apart from CRISPR, which relies on DNA cleavage followed by repair through pathways such as NHEJ or HDR.
 
-Just like changing the sequence of a CRISPR guide RNA directs Cas9 to a new site, altering the bridge RNA sequence can redirect the recombinase to a new genomic location. But bridge recombinases go beyond CRISPR in one important way: they can precisely insert large DNA fragments (up to several kilobases), while CRISPR edits are usually limited to small changes. This makes bridge recombinases especially promising for gene replacement therapies, where an entire functional gene needs to be inserted.
+Because their targeting is dictated by RNA–DNA pairing, bridge recombinases are programmable and modular, much like CRISPR. By simply changing the sequence of the bridge RNA, researchers can redirect the enzyme to a new genomic site. However, bridge recombinases expand the concept of RNA-guided editing into a new domain: they can integrate large DNA fragments (kilobases in length) with high precision, something CRISPR-based tools struggle to achieve efficiently.
 
-So far, two bridge recombinases, IS621 and ISCro4, have been characterized. They share about 88% sequence identity, suggesting that many other natural variants likely exist, some potentially even more efficient. Both of these enzymes have shown that RNA-guided recombination works reliably: IS621 functions well in bacteria, and ISCro4 in mammalian cells. Together, they define a new and powerful class of RNA-programmable genome editors that could overcome many limitations of existing technologies.
+So far, two bridge recombinases — IS621 and ISCro4 — have been characterized. They share about 88% sequence identity, suggesting that many other natural variants likely exist, some potentially even more efficient. Both of these enzymes have shown that RNA-guided recombination works reliably: IS621 functions well in bacteria, and ISCro4 in mammalian cells. Together, they define a new and powerful class of RNA-programmable genome editors that could overcome many limitations of existing technologies.
 
 ## Alpha-1 Antitrypsin Deficiency as a Proof of Concept
 
