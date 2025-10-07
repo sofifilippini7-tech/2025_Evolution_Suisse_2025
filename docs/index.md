@@ -45,4 +45,3 @@ For laboratory evolution, we employed two complementary systems. The first, call
 - We **established an evolutionary selection logic using the EcORep system**, allowing continuous mutagenesis and enrichment of more active recombinase variants, and **validated the system experimentally through successful DNA cassette flipping** in *E. coli*.  
 
 - We **developed and optimized a phage-assisted continuous evolution (PACE) framework** for bridge recombinases, confirming the feasibility of linking recombinase activity to phage propagation and establishing the groundwork for continuous evolution of high-performance variants.  
----
